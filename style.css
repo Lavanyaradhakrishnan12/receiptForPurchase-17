@@ -144,3 +144,12 @@ body {
 .purchase-heading:hover:before {
     transform: scaleX(1);
 }
+@media(max-width:600px){
+    .container {
+        margin: 0;
+        height: 100%;
+    }
+    .purchase-details {
+        margin: 10px;
+    }
+}
