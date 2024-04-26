@@ -146,10 +146,12 @@ body {
 }
 @media(max-width:600px){
     .container {
-        margin: 0;
+        background-size: cover;
+        background-position: center;
         height: 100%;
+        width: 100%;
     }
     .purchase-details {
-        margin: 10px;
+        padding: 20px;
     }
 }
